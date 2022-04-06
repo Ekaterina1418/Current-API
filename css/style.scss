@@ -1,0 +1,63 @@
+.body {
+    max-width: 1440px;
+}
+.title {
+   text-align: center; 
+   font-size: 2em;
+}
+.main {
+    display: flex;
+    justify-content: space-around;
+}
+.list-subtitle {
+    display: flex;
+   padding: 0;
+    list-style-type: none;
+    justify-content: space-around;
+    font-size: 1.3em;
+    font-weight: 500;
+    font-family:'Courier New', Courier, monospace
+
+}
+.list-info {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+}
+.currency-block {
+    display: flex;
+    flex-direction: column;
+   justify-content: space-around;
+}
+.currency-select {
+    font-size: 16px;
+      margin: 10% 0;
+}
+.currency-paragraph {
+  margin: 0;
+}
+.currency {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.procent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.currency-procent {
+   margin: 0;
+}
+.currency-span {
+    margin-left: 20px;
+    color: crimson;
+}
+@media (max-width:768px) {
+    .title {
+        font-size: 1.3em;
+    }
+    .list-subtitle {
+        font-size: 0.8em;
+    }
+}
